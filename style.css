@@ -1,0 +1,116 @@
+body {
+    font-family: -apple-system, BlinkMacMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    color: #007bff;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #555;
+    margin-top: 20px;
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 5px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Output Styling */
+.output-section {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.result-box {
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.max-qty {
+    background-color: #e9f5ff;
+    border: 1px solid #cce5ff;
+}
+
+.net-profit {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+
+.result-box h3 {
+    margin-top: 0;
+    color: #0056b3;
+}
+
+.result-box p {
+    font-size: 1.1em;
+}
+
+.secondary p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.fee-note {
+    font-size: 0.8em;
+    color: #888;
+    margin-top: 20px;
+    text-align: center;
+}
